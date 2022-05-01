@@ -121,7 +121,7 @@ function installQuestions() {
 	echo ""
 	echo -e "${BOLD}Необходимые данные получены. Теперь можно настроить ваш сервер WireGuard.${NC}"
 	echo -e "${BOLD}Настроить и создать Клиента можно в конце установки.${NC}"
-	read -n1 -r -p -e "${BOLD}Нажмите любую клавишу, чтобы продолжить...${NC}"
+	read -n1 -r -p -e "Нажмите любую клавишу, чтобы продолжить..."
 }
 
 function installWireGuard() {
